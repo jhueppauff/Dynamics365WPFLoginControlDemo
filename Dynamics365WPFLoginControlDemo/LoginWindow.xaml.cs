@@ -100,8 +100,8 @@ namespace Dynamics365WPFLoginControlDemo
                     // Credentials are cached
                     this.CrmLoginControl.IsEnabled = false;
 
-                    this.crmConnectionManager.ServerConnectionStatusUpdate += new EventHandler<ServerConnectStatusEventArgs>(crmConnectionManager_ServerConnectionStatusUpdateRaised);
-                    this.crmConnectionManager.ConnectionCheckComplete += new EventHandler<ServerConnectStatusEventArgs>(crmConnectionManager_ConnectionCheckCompleted);
+                    this.crmConnectionManager.ServerConnectionStatusUpdate += new EventHandler<ServerConnectStatusEventArgs>(CrmConnectionManager_ServerConnectionStatusUpdateRaised);
+                    this.crmConnectionManager.ConnectionCheckComplete += new EventHandler<ServerConnectStatusEventArgs>(CrmConnectionManager_ConnectionCheckCompleted);
 
                     this.crmConnectionManager.ConnectToServerCheck();
 
@@ -119,12 +119,12 @@ namespace Dynamics365WPFLoginControlDemo
         /// </summary>
         /// <param name="sender">The Sender</param>
         /// <param name="e">The <see cref="ServerConnectStatusEventArgs"/> instance containing the event data.</param>
-        private void crmConnectionManager_ConnectionCheckCompleted(object sender, ServerConnectStatusEventArgs e)
+        private void CrmConnectionManager_ConnectionCheckCompleted(object sender, ServerConnectStatusEventArgs e)
         {
             throw new NotImplementedException();
         }
 
-        private void crmConnectionManager_ServerConnectionStatusUpdateRaised(object sender, ServerConnectStatusEventArgs e)
+        private void CrmConnectionManager_ServerConnectionStatusUpdateRaised(object sender, ServerConnectStatusEventArgs e)
         {
             throw new NotImplementedException();
         }
