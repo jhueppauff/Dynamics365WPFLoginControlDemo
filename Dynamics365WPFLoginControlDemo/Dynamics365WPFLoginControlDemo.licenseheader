@@ -1,0 +1,7 @@
+﻿extensions: .aspx .ascx .cs .cpp .h
+//-----------------------------------------------------------------------
+// <copyright file="%FileName%" company="https://github.com/jhueppauff/Dynamics365WPFLoginControlDemo">
+// Copyright %CurrentYear% Jhueppauff
+// MIT License 
+// For licence details visit https://github.com/jhueppauff/Dynamics365WPFLoginControlDemo/blob/master/LICENSE
+//-----------------------------------------------------------------------
