@@ -1,4 +1,4 @@
-# Dynamics365WPFLoginControlDemo
+# Dynamics365 WPFLoginControl Demo
 
 Build on the QuickStart Demo from Microsoft
 
