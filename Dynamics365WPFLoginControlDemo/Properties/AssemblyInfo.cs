@@ -6,8 +6,6 @@
 //-----------------------------------------------------------------------
 
 using System.Reflection;
-using System.Resources;
-using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 
@@ -17,9 +15,9 @@ using System.Windows;
 [assembly: AssemblyTitle("Dynamics365WPFLoginControlDemo")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
+[assembly: AssemblyCompany("https://github.com/jhueppauff/Dynamics365WPFLoginControlDemo")]
 [assembly: AssemblyProduct("Dynamics365WPFLoginControlDemo")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyCopyright("Copyright © Julian Hüppauff 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
