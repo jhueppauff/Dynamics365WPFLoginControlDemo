@@ -4,7 +4,9 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:CrmLoginCtrl="clr-namespace:Microsoft.Xrm.Tooling.CrmConnectControl;assembly=Microsoft.Xrm.Tooling.CrmConnectControl"
-        mc:Ignorable="d"
+        mc:Ignorable="d" ResizeMode="NoResize" SizeToContent="Height" WindowStartupLocation="CenterScreen"
+        WindowStyle="None" AllowsTransparency="True" BorderThickness="1"
+        BorderBrush="#173561" Loaded="Window_Loaded"
         Title="LoginWindow" Width="484.397" Height="471">
     <Window.Resources>
         <ResourceDictionary>
@@ -14,6 +16,6 @@
         </ResourceDictionary>
     </Window.Resources>
     <Grid>
-        <CrmLoginCtrl:CrmServerLoginControl Name="CrmLoginCtrl" Grid.Row="1" ShowTitle="False"  Margin="10,5" VerticalAlignment="Bottom" />
+        <CrmLoginCtrl:CrmServerLoginControl Name="CrmLoginControl" Grid.Row="1" ShowTitle="False"  Margin="10,5" VerticalAlignment="Bottom" />
     </Grid>
 </Window>
